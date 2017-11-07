@@ -21,23 +21,20 @@ ul{
 
 html, body, div, span
 h1, h2, h3, h4, h6,
-a, font, img, li,
-table, tr, th, td {
-	
-	
+a
+{
+        margin: 0px;
+        padding:5px;
 	font-weight: inherit;
 	font-style: inherit;
 	font-size: 100%;
 	font-family: inherit;
 	vertical-align: baseline;
-        
-         
 }
 h2{
     font-size: 2em;
     color:darkblue;
     font-family: "Arial Rounded MT Bold";
-    
 }
 h3{
     font-size: 1.5em;
@@ -62,10 +59,7 @@ body{
 #container{
     width: 100%;
     margin: auto;
-    padding:20px;
-    
-    
-    
+    padding:20px; 
 }
 
 #header{
@@ -78,19 +72,18 @@ body{
     margin:20px;
 }
 #contentt{
-    padding: 0px;
-    
-    
+    padding:0px;
+    margin:10px;
+   
 }
 #nav{
-    
     float: left;
     color: black;
-   
 }
 
 #tasty{
-    
+    padding:0;
+    margin:0;
     float: right;   
 }
 #comment{
@@ -100,10 +93,7 @@ body{
 #footer{
    clear:both;
    color:black;
-   font-weight: bold;
- 
-
-    
+   font-weight: bold;  
 }
 div.title {
     font: x-large Verdana, Arial, Helvetica, sans-serif;
@@ -115,7 +105,6 @@ table {
     
     border-collapse: separate;
     border-spacing: 0;
-
     font: 100% Verdana, Arial, Helvetica, sans-serif;
     table-layout: fixed;
     border-collapse: collapse;
@@ -229,8 +218,8 @@ th.month {
   background-image: -ms-linear-gradient(top, #b5e4ff, #fcf7fc);
   background-image: -o-linear-gradient(top, #b5e4ff, #fcf7fc);
   background-image: linear-gradient(to bottom, #b5e4ff, #fcf7fc);
-  -webkit-border-radius: 28;
-  -moz-border-radius: 28;
+  -webkit-border-radius: 28px;
+  -moz-border-radius: 28px;
   border-radius: 28px;
   font-family: Georgia;
   color: #0f0c0f;
