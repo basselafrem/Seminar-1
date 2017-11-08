@@ -95,7 +95,7 @@ body{
    color:black;
    font-weight: bold;  
 }
-div.title {
+.title {
     font: x-large Verdana, Arial, Helvetica, sans-serif;
     text-align: center;
     height: 40px;
